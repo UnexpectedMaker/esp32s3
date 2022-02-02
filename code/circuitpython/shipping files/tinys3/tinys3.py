@@ -25,7 +25,7 @@ vbus_sense.direction = Direction.INPUT
    
 # Helper functions
 def set_pixel_power(state):
-    """Enable or Disable power to the onboard NeoPixel to either show colour, or to reduce power fro deep sleep."""
+    """Enable or Disable power to the onboard NeoPixel to either show colour, or to turn off to reduce current consumption."""
     global pixel_power
     pixel_power.value = state
     
