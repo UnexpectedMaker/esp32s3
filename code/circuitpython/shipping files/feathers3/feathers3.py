@@ -47,7 +47,7 @@ def get_battery_voltage():
     # I don't really understand what CP is doing under the hood here for the ADC range & calibration,
     # but the onboard voltage divider for VBAT sense is setup to deliver 1.1V to the ADC based on it's
     # default factory configuration.
-    # This forumla should show the nominal 4.2V max capacity (approximately) when 5V is present and the
+    # This formula should show the nominal 4.2V max capacity (approximately) when 5V is present and the
     # VBAT is in charge state for a 1S LiPo battery with a max capacity of 4.2V   
     global vbat_voltage
     return (vbat_voltage.value / 5371)
