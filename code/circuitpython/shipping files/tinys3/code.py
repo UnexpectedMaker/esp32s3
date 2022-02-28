@@ -5,7 +5,7 @@ import tinys3
 
 # Create a NeoPixel instance
 # Brightness of 0.3 is ample for the 1515 sized LED
-pixel = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.3, auto_write=True, pixel_order=neopixel.RGB)
+pixel = neopixel.NeoPixel(board.NEOPIXEL, 1, brightness=0.3, auto_write=True, pixel_order=neopixel.GRB)
 
 # Say hello
 print("\nHello from TinyS3!")
