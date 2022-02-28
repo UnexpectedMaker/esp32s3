@@ -44,13 +44,14 @@ def set_ldo2_power(state):
     
 def get_battery_voltage():
     """Get the approximate battery voltage."""
-    # I don't really understand what CP is doing under the hood here for the ADC range & calibration,
-    # but the onboard voltage divider for VBAT sense is setup to deliver 1.1V to the ADC based on it's
-    # default factory configuration.
     # This formula should show the nominal 4.2V max capacity (approximately) when 5V is present and the
     # VBAT is in charge state for a 1S LiPo battery with a max capacity of 4.2V   
     global vbat_voltage
-    return (vbat_voltage.value / 5371)
+    ADC_RESOLUTION = 2 ** 16 -1
+    AREF_VOLTAGE = 3.3
+    R1 = 442000
+    R2 = 160000
+    return (vbat_voltage.value/ADC_RESOLUTION*AREF_VOLTAGE*(R1+R2)/R2)
 
 def get_vbus_present():
     """Detect if VBUS (5V) power source is present"""
