@@ -26,6 +26,8 @@
 // Define the array of leds
 CRGB leds[NUM_LEDS];
 
+#define BRIGHTNESS 10
+
 void setup() { 
 
   FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);  // GRB ordering is assumed
@@ -35,11 +37,14 @@ void setup() {
   pinMode(POWER_PIN, OUTPUT);
   digitalWrite(POWER_PIN, HIGH);
 #endif
+
+  FastLED.setBrightness(BRIGHTNESS);
+  
 }
 
 void loop() { 
   // Turn the LED on, then pause
-  leds[0] = CRGB::Green;
+  leds[0] = CRGB::Red;
   FastLED.show();
   delay(500);
 
