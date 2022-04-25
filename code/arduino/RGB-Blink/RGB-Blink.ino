@@ -1,3 +1,9 @@
+/********************************************
+ * 
+ *  RGB Blink sample using FastLED library
+ *  by Sukesh Ashok Kumar
+ * 
+ ********************************************/
 #include <FastLED.h>
 
 #define TINY_S3
@@ -26,7 +32,7 @@
 // Define the array of leds
 CRGB leds[NUM_LEDS];
 
-#define BRIGHTNESS 10
+#define BRIGHTNESS 100
 
 void setup() { 
 
