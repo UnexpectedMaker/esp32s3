@@ -1,6 +1,6 @@
 # Unexpected Maker ESP32-S3 Arduino Helper Library
 
-This is the [helper library](https://github.com/UnexpectedMaker/esp32s3-arduino-helper/tree/1.0.0) for all the Unexpected Maker [ESP32-S3 boards](https://esp32s3.com).
+This is the [helper library](https://github.com/UnexpectedMaker/esp32s3-arduino-helper) for all the Unexpected Maker [ESP32-S3 boards](https://esp32s3.com).
 
 Examples can be found in the [examples directory](./examples/), these can also be loaded from the examples menu in the Arduino IDE.
 
