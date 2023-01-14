@@ -6,9 +6,7 @@ Examples can be found in the [examples directory](https://github.com/UnexpectedM
 
 ## Installation
 
-Please download the library via the Arduino Library Manager.
-
-Exact name: `UMS3 Helper`
+Please download the library called `UMS3 Helper` via the Arduino Library Manager.
 
 ## List of functions
 
