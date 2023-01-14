@@ -8,6 +8,8 @@ Examples can be found in the [examples directory](https://github.com/UnexpectedM
 
 Please download the library via the Arduino Library Manager.
 
+Exact name: `UMS3 Helper`
+
 ## List of functions
 
 ```c++
