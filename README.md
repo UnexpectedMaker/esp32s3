@@ -2,6 +2,8 @@
 
 Assorted files for my ESP32-S3 development boards 
 
+![logo](https://esp32s3.com/images/logo_nanos3.png)
+
 ![logo](https://esp32s3.com/images/logo_tinys3.png)
 
 ![logo](https://esp32s3.com/images/logo_feathers3.png)
@@ -19,24 +21,20 @@ In this repo you'll find the following items:
 3D STEP files for each of the TinyS3, ProS3 and FeatherS3 boards
 
 
-## KiCAD 6 Symbols
+## KiCAD 6/7 Symbols
 KiCAD 6 symbol files for each of the boards that you can use when integrating one of them into one of your PCB designs.
+NanoS3 symbol file is for KiCAD 7 or later
 
-
-## KiCAD 6 Footprints
+## KiCAD 6/7 Footprints
 KiCAD 6 footprint files for each of the boards including both SMD and TH versions for the ProS3
-
+NanoS3 footprint file is for KiCAD 7 or later
 
 ## Schematics
-PDF Schematics for each of the TinyS3, ProS3 and FeatherS3 boards
+PDF Schematics for each of the NanoS3, TinyS3, ProS3 and FeatherS3 boards
 
 
 ## Pin Reference Cards
-Hires pinout reference cards for each of the TinyS3, ProS3 and FeatherS3 boards
-
-
-## Fritzing Parts
-Fritzing parts for each of the TinyS3, ProS3 and FeatherS3 boards - coming soon!
+Hires pinout reference cards for each of the NanoS3, TinyS3, ProS3 and FeatherS3 boards
 
 
 
