@@ -1,16 +1,19 @@
 # Code - Unexpected Maker - ESP32-S3 Boards 
-Code examples and helper libraries for for ESP32-S3 boards
+Code examples and helper libraries for ESP32-S3 boards
 
 Currently includes:
 
 ## CircuitPython
-- Shipping files including help and code.py
+- Shipping files including the CP helper library and code.py
 
 ## MicroPython
 - Helper library and example code
 
 ## Arduino
 - A link to the Helper library and example code for the Arduino IDE, to be installed via the library manager 
+
+## PlatformIO
+- An example project setup for the FeatherS3 that uses the UM S3 Helper Arduino library to cycle the RGB LED, flash the Blue LED and print out an RGB cycle count to the serial console. 
 
 You can find out more about my ESP32-S3 boards at https://esp32s3.com 
 
