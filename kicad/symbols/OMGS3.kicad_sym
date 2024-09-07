@@ -6,20 +6,22 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 0 0 0)
+		(property "Reference" "U1"
+			(at -0.254 0.8891 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 0 1.27 0)
+		(property "Value" "OMGS3"
+			(at -0.254 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -506,6 +508,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 0 180)
+				(length 2.54)
+				(name "EXP"
+					(effects
+						(font
+							(size 1.1 1.1)
+						)
+					)
+				)
+				(number "EXP"
 					(effects
 						(font
 							(size 1 1)
