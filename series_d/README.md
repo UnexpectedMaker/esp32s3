@@ -22,17 +22,18 @@ In this repo you'll find the following items:
 ## 3D Models
 3D STEP files for each of the TinyS3[D], ProS3[D], FeatherS3[D] and EdgeS3[D] boards
 
-You'll also find a STEP file for the EdgeS3[D] Refernece Carrier board and a STEP for the M.2 connector footprint with the EdgeS3[D] inserted to help line things up.
+You'll also find a STEP file for the EdgeS3[D] Reference Carrier board and a STEP for the M.2 connector footprint with the EdgeS3[D] inserted to help line things up.
 
 ## Schematics
-PDF Schematics for each of the TinyS3[D], ProS3[D], FeatherS3[D] and EdgeS3[D] boards
+PDF Schematics for each of the TinyS3[D], ProS3[D], FeatherS3[D] and EdgeS3[D] boards.
+
+## KiCAD (v9)
+Symbol and Footprint for EdgeS3[D] and a project folder for the EdgeS3[D] Reference Carrier PCB.
 
 ## Pin Reference Cards
 Hires pinout reference cards for each of the TinyS3[D], ProS3[D], FeatherS3[D] and EdgeS3[D] boards
 
-
 # Support Unexpected Maker
-
 I love designing, making, and releasing projects and products that empower others to learn and build amazing things! I do it because I believe it’s important to share knowledge and give back to the community as many have done before me. It helps us all learn and grow.
 
 Please consider supporting me by buying some of my products from:
